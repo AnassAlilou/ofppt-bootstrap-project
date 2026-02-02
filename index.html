@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Visit Morcco</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary p-3 ps-3 fixed-top">
+        <div class="container-fluid">
+          <img src="./img/morocco logo.svg" alt="" class="navbar-brand">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                ><i class="bi bi-house-door me-1"></i>Home</a
+              >
+              <a class="nav-link" href="attractions.html"
+                ><i class="bi bi-geo-alt me-1"></i>Attractions</a
+              >
+              <a class="nav-link" href="contact.html"
+                ><i class="bi bi-envelope me-1"></i>Contact US</a
+              >
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section id="hero-section">
+      <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            class="active"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="./img/carousel/chefchaouen.jpg" class="d-block w-100" alt="Chefchaouen City" />
+            <div class="carousel-caption d-block">
+              <h2>Chefchaouen The Blue City</h2>
+              <p>
+                Wander through the enchanting blue-washed streets of this mountain paradise
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel/ait benhadou.jpg" class="d-block w-100" alt="Taghazout Village" />
+            <div class="carousel-caption d-block">
+              <h2>Ksar d'Aït-Ben-Haddou</h2>
+              <p>
+                Step back in time at this ancient fortified village and UNESCO World Heritage site
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./img/carousel/sahara desert.jpg" class="d-block w-100" alt="Sahara Desert" />
+            <div class="carousel-caption d-block">
+              <h2>Sahara Desert</h2>
+              <p>
+                Experience the golden dunes and starlit nights of the world's most famous desert
+              </p>
+            </div>
+         </div>
+          <div class="carousel-item active">
+            <img src="./img/carousel/taghazout beach.jpg" class="d-block w-100" alt="Sahara Desert" />
+            <div class="carousel-caption d-block">
+              <h2>Taghazout Village</h2>
+              <p>
+                Where the desert meets the ocean and the waves never end 
+              </p>
+            </div>
+          </div>
+        </div> 
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </section>
+    </div>
+    <main>
+        <div id="welcome" >
+            <h1 >Discover the Magic of Morocco</h1>
+            <p >From the golden sands of the Sahara to the vibrant souks of <a href="https://en.wikipedia.org/wiki/Marrakesh">Marrakech</a>, Morocco offers an unforgettable journey through ancient traditions, stunning landscapes, and warm hospitality. Let us guide you through the wonders of this North African gem.</p>
+        </div>
+        <div id="section1">
+            <h1>Why Visit Morocco ?</h1>
+            <p><a href="https://en.wikipedia.org/wiki/Morocco">Morocco</a> is a land where ancient history meets coastal cool. Morocco invites you to explore imperial cities, trek through majestic mountain ranges, and find peace in the vastness of the desert. With world-class hospitality, a rich culinary heritage, and landscapes that look like movie sets, the real question isn't why visit Morocco, it's how soon can you get here?</p>
+        </div>
+        <div id="cards">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card h-100" >
+                          <img src="./img/cards/nass el ghiwane.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h3>Rich Culture</h3>
+                            <p class="card-text">Immerse yourself in centuries of Berber, Arab, and French influences that create Morocco's
+                            unique cultural tapestry</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100" >
+                          <img src="./img/cards/food scene.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h3>Vibrant Food Scene</h3>
+                            <p class="card-text">From slow-cooked tajines to handmade couscous, every meal is a masterpiece</p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                          <img src="./img/cards/atlas mountains.jpg" class="card-img-top" alt="...">
+                          <div class="card-body">
+                            <h3>Stunning Landscapes</h3>
+                            <p class="card-text">From Atlas Mountains to coastal beaches and desert oases, Morocco's diverse terrain will take
+                            your breath away</p>
+                          </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </main>
+    <section id="testimonials">
+        
+
+    </section>
+    
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./img/morocco logo.svg" alt="Logo" class="navbar-brand">
+                    <p>Your trusted companion for exploring the wonders of Morocco. Discover ancient cities, breathtaking landscapes, and unforgettable experiences.</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Links</h4>
+                    <div class="page-link">
+                        <a href="index.html"><i class="bi bi-chevron-right me-1"></i>Home</a>
+                        <a href="attractions.html"><i class="bi bi-chevron-right me-1"></i>Attractions</a>
+                        <a href="contact.html"><i class="bi bi-chevron-right me-1"></i>Contact US</a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                   <h3>Let's Get in Touch</h3>
+                   <div class="social-media">
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-github"></i></a>
+                    </div>
+                </div>
+                <hr>
+                <p class="text-center">&copy; 2026 Anass Alilou DD106. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+  </body>
+</html>
